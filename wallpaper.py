@@ -7,7 +7,7 @@ from bot import *
 
 def get_image(quote,author):
     image = Image.new('RGB',(800,500),color=(0,0,0))
-    font = ImageFont.truetype("/root/wise/NRegular.ttf",40)
+    font = ImageFont.truetype("/WiseMonkey77/NRegular.ttf",40)
     text_color = (200,200,200)
     test_start_height = 70
     write_text_on_image(image,quote,author,font,text_color,test_start_height)
