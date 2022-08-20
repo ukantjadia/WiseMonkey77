@@ -5,7 +5,7 @@ import configparser
 
 #config=configparser.ConfigParser()
 #config.read('config.ini')
-doc = open('/root/wise/key.txt','r').read().splitlines()
+doc = open('WiseMonkey77/key.txt','r').read().splitlines()
 
 
 #api_key=config['twitter']['api_key']
